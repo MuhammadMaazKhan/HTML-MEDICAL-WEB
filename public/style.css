@@ -1,0 +1,100 @@
+.navbar{
+    background-color: #E8E8E8 !important;
+}
+.nav-link{
+   color: blue !important;
+   font-weight: bold !important;
+}
+
+.fa-shopping-cart, .fa-user-circle{
+    font-size: 35px !important;
+}
+li:hover {
+    text-decoration: underline;
+}
+.fa-motorcycle,.fa-phone-square,.fa-heart{
+    font-size: 35px !important;
+    
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card1,.card2,.card3{
+    width:20% !important;
+    height: 100% !important;
+    background-color: white !important;
+    box-shadow: 5px 5px 5px 5px gray !important;
+    margin-left: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+@media screen and (max-width:600px){
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+}
+.newarrival{
+    margin-top: 5%;
+}
+.maincard{
+    width: 200px;
+    height: 200px';
+}
+.btn-primary{
+       width: 100%;
+       
+}
+.heading{
+    text-align: center;
+}
+.heading > h2{
+    text-shadow: 5px 5px 5px 5px greenyellow;
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+    
+
+     
+}
+.card-body9{
+    background-color:#e0e0e0;
+    width: 23%;
+    height: 20%; 
+    margin-top: 5%;
+}
+.card-title{
+    text-align: center;
+    margin-top: 10%;
+}
+.card-link{
+    margin-left: 40%;
+    
+}
+.footer{
+    background-color:#e0e0e0 ;
+text-align: center;
+padding-bottom: 1%;
+}
+.image{
+    width: 50%;
+    height: 50%;
+}
+.final{
+    background-color:#e0e0e0 ;
+    width: 70%;
+    height: 333px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    text-align: center;
+
+    
+}
